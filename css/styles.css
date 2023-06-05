@@ -47,7 +47,7 @@ img {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
@@ -182,6 +182,18 @@ footer .social-links a:hover {
   background-color: var(--secondary-color);
 }
 
+footer .opened-sourced a {
+  text-align: center;
+  text-decoration: none;
+  color: #f76b8a;
+}
+
+footer .opened-sourced p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  opacity: 0.5;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 48px;
@@ -194,10 +206,6 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 20px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .content {
